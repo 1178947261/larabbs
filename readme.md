@@ -195,3 +195,4 @@ password: password
 | TranslateSlug.php | 将话题标题翻译为 Slug | TopicObserver 事件 saved() |
 | TopicReplied.php | 通知作者话题有新回复 | 话题被评论以后 |
 
+"# larabbs" 
