@@ -1,11 +1,10 @@
 <?php
 
 namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model as momo;
 use Cache;
 
-class Link extends Model
+class Link extends momo
 {
     protected $fillable = ['title', 'link'];
 
