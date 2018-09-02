@@ -2,10 +2,229 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930b9c35-7667-491f-a633-f882167e1097" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/VerificationCodesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/VerificationCodesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Link.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Link.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/config/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Auth/Auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Auth/Provider/Authorization.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Auth/Provider/Basic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Auth/Provider/JWT.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Console/Command/Cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Console/Command/Docs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Console/Command/Routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Auth/Provider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Debug/ExceptionHandler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Debug/MessageBagErrors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Http/Parser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Http/RateLimit/HasRateLimiter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Http/RateLimit/Throttle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Http/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Http/Validator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Routing/Adapter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Contract/Transformer/Adapter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Dispatcher.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Event/RequestWasMatched.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Event/ResponseIsMorphing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Event/ResponseWasMorphed.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Exception/DeleteResourceFailedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Exception/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Exception/InternalHttpException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Exception/RateLimitExceededException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Exception/ResourceException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Exception/StoreResourceFailedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Exception/UnknownVersionException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Exception/UpdateResourceFailedException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Exception/ValidationHttpException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Facade/API.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Facade/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/FormRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/InternalRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Middleware/Auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Middleware/PrepareController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Middleware/RateLimit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Middleware/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Parser/Accept.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/RateLimit/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/RateLimit/Throttle/Authenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/RateLimit/Throttle/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/RateLimit/Throttle/Throttle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/RateLimit/Throttle/Unauthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/RequestValidator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Response.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Response/Factory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Response/Format/Format.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Response/Format/Json.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Response/Format/JsonOptionalFormatting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Response/Format/Jsonp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Validation/Accept.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Validation/Domain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Http/Validation/Prefix.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Provider/DingoServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Provider/HttpServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Provider/LaravelServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Provider/LumenServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Provider/RoutingServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Provider/ServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Routing/Adapter/Laravel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Routing/Adapter/Lumen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Routing/Helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Routing/ResourceRegistrar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Routing/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Routing/RouteCollection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Routing/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Routing/UrlGenerator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Transformer/Adapter/Fractal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Transformer/Binding.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/Transformer/Factory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/dingo/api/src/helpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/provides.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/provides.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractColor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractColor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractDecoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractDecoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractEncoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractEncoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractFont.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractFont.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/AbstractShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/AbstractCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/AbstractCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/Argument.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/Argument.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ChecksumCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ChecksumCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/CircleCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/CircleCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/EllipseCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/EllipseCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ExifCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ExifCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/IptcCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/IptcCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/LineCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/LineCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/OrientateCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/OrientateCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/PolygonCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/PolygonCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/PsrResponseCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/PsrResponseCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/RectangleCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/RectangleCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ResponseCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/ResponseCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/StreamCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/StreamCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/TextCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Commands/TextCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Constraint.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Constraint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/ImageException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/ImageException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/InvalidArgumentException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/InvalidArgumentException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/MissingDependencyException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/MissingDependencyException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotReadableException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotReadableException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotSupportedException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotSupportedException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotWritableException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/NotWritableException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/RuntimeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Exception/RuntimeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Facades/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Facades/Image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/File.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/File.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Filters/DemoFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Filters/DemoFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Filters/FilterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Filters/FilterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Color.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Color.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BackupCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BackupCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BlurCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BlurCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BrightnessCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/BrightnessCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ColorizeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ColorizeCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ContrastCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ContrastCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/CropCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/CropCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/DestroyCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/DestroyCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/FillCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/FillCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/FitCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/FitCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/FlipCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/FlipCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/GammaCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/GammaCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/GetSizeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/GetSizeCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/GreyscaleCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/GreyscaleCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/HeightenCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/HeightenCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/InsertCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/InsertCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/InterlaceCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/InterlaceCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/InvertCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/InvertCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/LimitColorsCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/LimitColorsCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/MaskCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/MaskCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/OpacityCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/OpacityCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/PickColorCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/PickColorCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/PixelCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/PixelCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/PixelateCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/PixelateCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResetCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResetCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCanvasCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCanvasCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/ResizeCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/RotateCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/RotateCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/SharpenCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/SharpenCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/TrimCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/TrimCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/WidenCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Commands/WidenCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Driver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Driver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Encoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Encoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/CircleShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/CircleShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/EllipseShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/EllipseShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/LineShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/LineShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/PolygonShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/PolygonShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/RectangleShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Gd/Shapes/RectangleShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManagerStatic.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManagerStatic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel5.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLaravel5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLeague.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLeague.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLumen.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageServiceProviderLumen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Color.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Color.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BackupCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BackupCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BlurCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BlurCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BrightnessCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/BrightnessCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ColorizeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ColorizeCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ContrastCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ContrastCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/CropCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/CropCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/DestroyCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/DestroyCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ExifCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ExifCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FillCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FillCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FitCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FitCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FlipCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/FlipCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/GammaCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/GammaCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/GetSizeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/GetSizeCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/GreyscaleCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/GreyscaleCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/HeightenCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/HeightenCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/InsertCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/InsertCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/InterlaceCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/InterlaceCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/InvertCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/InvertCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/LimitColorsCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/LimitColorsCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/MaskCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/MaskCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/OpacityCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/OpacityCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/PickColorCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/PickColorCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/PixelCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/PixelCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/PixelateCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/PixelateCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResetCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResetCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResizeCanvasCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResizeCanvasCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResizeCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/ResizeCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/RotateCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/RotateCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/SharpenCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/SharpenCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/TrimCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/TrimCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/WidenCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Commands/WidenCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Decoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Decoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Driver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Driver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Encoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Encoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/CircleShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/CircleShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/EllipseShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/EllipseShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/LineShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/LineShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/PolygonShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/PolygonShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/RectangleShape.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Imagick/Shapes/RectangleShape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Point.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Point.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Size.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Size.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/intervention/image/src/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/intervention/image/src/config/config.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,6 +235,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <executablePath>composer</executablePath>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="larabbs" />
@@ -25,7 +245,7 @@
       <file leaf-file-name="VerificationCodesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/VerificationCodesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
+            <state relative-caret-position="570">
               <caret line="32" column="25" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="e#44#94#0#PHP" expanded="true" />
@@ -34,20 +254,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="152">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Link.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.lock" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22515">
+              <caret line="1185" column="21" selection-start-line="1185" selection-start-column="21" selection-end-line="1185" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Link.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Link.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="380">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#29#76#0#PHP" expanded="true" />
               </folding>
@@ -58,7 +305,7 @@
       <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
+            <state relative-caret-position="76">
               <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="38" />
             </state>
           </provider>
@@ -81,7 +328,7 @@
       <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="114">
               <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
             </state>
           </provider>
@@ -95,6 +342,7 @@
       <find>AppServiceProvider</find>
       <find>EasySms</find>
       <find>horizon</find>
+      <find>fileinfo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -119,15 +367,16 @@
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/config/easysms.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_08_27_132710_add_phone_to_users_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/Controller.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Http/Requests/Api/VerificationCodeRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/VerificationCodesController.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Models/Link.php" />
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/composer.lock" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -235,9 +484,7 @@
       <path value="$PROJECT_DIR$/vendor/cakephp/chronos" />
       <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
       <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
-      <path value="$PROJECT_DIR$/vendor/dingo/blueprint" />
       <path value="$PROJECT_DIR$/vendor/predis/predis" />
-      <path value="$PROJECT_DIR$/vendor/dingo/api" />
       <path value="$PROJECT_DIR$/vendor/hieu-le/active" />
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
       <path value="$PROJECT_DIR$/vendor/mews/purifier" />
@@ -259,11 +506,13 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/dingo/api" />
+      <path value="$PROJECT_DIR$/vendor/dingo/blueprint" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -299,24 +548,68 @@
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="dingo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="dingo" type="462c0819:PsiDirectoryNode" />
+              <item name="blueprint" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,11 +653,15 @@
       <workItem from="1535091280634" duration="1780000" />
       <workItem from="1535336199896" duration="15848000" />
       <workItem from="1535426655756" duration="1117000" />
+      <workItem from="1535554642653" duration="1535000" />
+      <workItem from="1535895869291" duration="453000" />
+      <workItem from="1535896448560" duration="1350000" />
+      <workItem from="1535898108070" duration="666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27934000" />
+    <option name="totallyTimeSpent" value="31938000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,16 +673,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.4154853" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020107" side_tool="true" visible="true" weight="0.4115983" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" sideWeight="0.5005417" side_tool="true" weight="0.26066098" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.4154853" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.24253732" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49798927" visible="true" weight="0.4115983" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.25603217" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.26066098" />
@@ -407,9 +704,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/seeds/LinksTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/ReplysTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -528,20 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="1185" column="10" selection-start-line="1185" selection-start-column="10" selection-end-line="1185" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/overtrue/easy-sms/src/Gateways/TwilioGateway.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -563,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -581,9 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,9 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="47" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="47" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,32 +934,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="e#37#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/VerificationCodesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="e#44#94#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="285">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="114">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
@@ -709,18 +963,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="76">
           <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Models/Link.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="e#29#76#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/VerificationCodesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="e#44#94#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22515">
+          <caret line="1185" column="21" selection-start-line="1185" selection-start-column="21" selection-end-line="1185" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>

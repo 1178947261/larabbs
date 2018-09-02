@@ -22,12 +22,12 @@ class ComposerStaticInitb8b8430a9312c633782206f1c299b9d9
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
         '4a1f389d6ce373bda9e57857d3b61c84' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/helpers.php',
-        'f4e9c7747917193061b46ee142399603' => __DIR__ . '/..' . '/dingo/api/src/helpers.php',
         'c9b7496aa2e287ba00ff44d2d2a861b1' => __DIR__ . '/..' . '/hieu-le/active/src/helpers.php',
         '5e8fe2a5ffaded85af682684fe3bbf5a' => __DIR__ . '/..' . '/mews/captcha/src/helpers.php',
         'cb61d74ad51d00867155534456b38b23' => __DIR__ . '/..' . '/mews/purifier/src/helpers.php',
         'f960e77410032f236cef8c56617b313e' => __DIR__ . '/..' . '/overtrue/laravel-lang/src/helpers.php',
         '377b22b161c09ed6e5152de788ca020a' => __DIR__ . '/..' . '/spatie/laravel-permission/src/helpers.php',
+        'f4e9c7747917193061b46ee142399603' => __DIR__ . '/..' . '/dingo/api/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -482,6 +482,9 @@ class ComposerStaticInitb8b8430a9312c633782206f1c299b9d9
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Handlers\\ImageUploadHandler' => __DIR__ . '/../..' . '/app/Handlers/ImageUploadHandler.php',
         'App\\Handlers\\SlugTranslateHandler' => __DIR__ . '/../..' . '/app/Handlers/SlugTranslateHandler.php',
+        'App\\Http\\Controllers\\Api\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/Controller.php',
+        'App\\Http\\Controllers\\Api\\UsersController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/UsersController.php',
+        'App\\Http\\Controllers\\Api\\VerificationCodesController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/VerificationCodesController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
@@ -500,6 +503,8 @@ class ComposerStaticInitb8b8430a9312c633782206f1c299b9d9
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Http\\Requests\\Api\\UserRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Api/UserRequest.php',
+        'App\\Http\\Requests\\Api\\VerificationCodeRequest' => __DIR__ . '/../..' . '/app/Http/Requests/Api/VerificationCodeRequest.php',
         'App\\Http\\Requests\\ReplyRequest' => __DIR__ . '/../..' . '/app/Http/Requests/ReplyRequest.php',
         'App\\Http\\Requests\\Request' => __DIR__ . '/../..' . '/app/Http/Requests/Request.php',
         'App\\Http\\Requests\\TopicRequest' => __DIR__ . '/../..' . '/app/Http/Requests/TopicRequest.php',

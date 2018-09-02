@@ -1138,7 +1138,6 @@
                 "shasum": ""
             },
             "require": {
-                "ext-fileinfo": "*",
                 "guzzlehttp/psr7": "~1.1",
                 "php": ">=5.4.0"
             },
@@ -1495,13 +1494,11 @@
                 "league/flysystem-sftp": "<1.0.6"
             },
             "require-dev": {
-                "ext-fileinfo": "*",
                 "mockery/mockery": "~0.9",
                 "phpspec/phpspec": "^2.2",
                 "phpunit/phpunit": "~4.8"
             },
             "suggest": {
-                "ext-fileinfo": "Required for MimeType",
                 "league/flysystem-aws-s3-v2": "Allows you to use S3 storage with AWS SDK v2",
                 "league/flysystem-aws-s3-v3": "Allows you to use S3 storage with AWS SDK v3",
                 "league/flysystem-azure": "Allows you to use Windows Azure Blob storage",
